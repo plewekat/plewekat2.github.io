@@ -1,10 +1,15 @@
 body {
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
 }
-
+/*phone view */
 main {
+  max-width: 767px;
+  margin: 0 auto;
 }
 
 h2 {
+  color: #536878;
 }
 
 main {
@@ -12,20 +17,37 @@ main {
   grid-template-columns lfr;
   font-size: 0.8rem;
 }
-main section {}
-main picture {}
+
+main section {
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  padding: 0 1rem;
+  background-color: #eee
+}
+
+ section:nth-child(2) {
+  display: none;
+  margin: 0.5rem;
+}
 .colimage {}
 
 
-/* medium */
+/* tablet */
 @media only screen and (min-width: 37.5em) {
   main {
     grid-template-columns: lfr lfr;
   }
+  
+   section:nth-child(2) {
+  display: block;
+  
   section:nth-child(3) {
     grid-column: span 2
   }
-  main picture {}
+  main picture {
+  display: none;
+  margin: 0.5rem;
+  }
   main section picture img {}
 }
 
@@ -37,6 +59,9 @@ main picture {}
   section:nth-child(3) {
     grid-column: span 1
   }
-  main picture {}
+  main picture {
+  display: none;
+  margin: 0.5rem;
+  }
   main section picture img {}
 }
