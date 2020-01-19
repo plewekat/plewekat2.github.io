@@ -1,63 +1,38 @@
-@import url(https://fonts.googleapis.com/css?family=Barlow);
-
-* { box-sizing: border-box; }
-
-body { 
-  font-family: 'Barlow', sans-serif;
-  color: #666;
+body {
 }
 
-/* STRUCTURE */
-
-.wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-	margin: 20px auto;
-}
-header {
-	padding: 0 15px;
+main {
 }
 
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+h2 {
 }
 
-.column {
-	flex: 1;
-	border: 1px solid gray;
-	margin: 2px;
-	padding: 10px;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
-	
+main {
+  display: grid;
+  grid-template-columns lfr;
+  font-size: 0.8rem;
+}
+main section {}
+main picture {}
+.colimage {}
+
+
+/* medium */
+@media only screen and (min-width: 37.5em) {
+  main {
+    grid-template-columns: lfr lfr;
+  }
+  article:nth-child(3) {}
+  main picture {}
+  main section picture img {}
 }
 
-footer {
-	padding: 0 15px;
-}
-
-
-@media screen and (max-width: 980px) {
-  .columns .column {
-		margin-bottom: 5px;
-    flex-basis: 40%;
-		&:nth-last-child(2) {
-			margin-right: 0;
-		}
-		&:last-child {
-			flex-basis: 100%;
-			margin: 0;
-		}
-	}
-}
-
-@media screen and (max-width: 680px) {
-	.columns .column {
-		flex-basis: 100%;
-		margin: 0 0 5px 0;
-	}
+/* large */
+@media only screen and (min-width: 60em) {
+  main {
+    grid-template-columns: lfr lfr lfr;
+  }
+  article:nth-child(3) {}
+  main picture {}
+  main section picture img {}
 }
