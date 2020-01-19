@@ -22,7 +22,9 @@ main picture {}
   main {
     grid-template-columns: lfr lfr;
   }
-  article:nth-child(3) {}
+  section:nth-child(3) {
+    grid-column: span 2
+  }
   main picture {}
   main section picture img {}
 }
@@ -32,7 +34,9 @@ main picture {}
   main {
     grid-template-columns: lfr lfr lfr;
   }
-  article:nth-child(3) {}
+  section:nth-child(3) {
+    grid-column: span 1
+  }
   main picture {}
   main section picture img {}
 }
