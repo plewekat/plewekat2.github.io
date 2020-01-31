@@ -1,13 +1,12 @@
-@charset "UTF-8"; /* not necessary */
-/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+@charset "UTF-8";
 body {
 	font-size: 16px;
 	font-family: "Barlow",, sans-serif;
 }
 
-/* phone or baseline views **************************/
+/* phone or baseline views */
 header, footer{
-    background-color:rgb(101, 111, 167);
+    background-color:rgb(000, 100, 100);
     height: auto;
     align-items: center;
     border-radius:0.5rem;
@@ -26,9 +25,10 @@ footer {
 }
 h1 {
 	font-size: 2rem;
+  color: #fff;
 }
 h2 {
-	color: #536878;
+	color: gray;
 }
 
 nav {
@@ -53,7 +53,7 @@ nav li a {
 
 nav a:hover {
 	background-color: #bbb;
-	color: #36454f;
+	color: black;
 }
 .active {
 	color: yellow;
@@ -61,10 +61,11 @@ nav a:hover {
 
 footer {
 	flex: 0 1 100%;
-	height: 3rem;
+	height: 5rem;
+  color: #fff;
 }
 
-/* Tablet Views ******************************/
+/* Tablet Views */
 @media only screen and (min-width: 37.5em) {
 
 			nav ul { 
@@ -86,7 +87,7 @@ footer {
 	}
 }
 
-/* Desktop Views ****************************/
+/* Desktop Views */
 @media only screen and (min-width: 60em) {
 	nav a {
 		font-size: 1.1rem;
@@ -102,8 +103,8 @@ footer {
 	background-color:rgb(101, 111, 167);
 }
 #color2{
-	background-color: #36454f;
-	color: #fff;
+	background-color: grey;
+	color: light blue;
 
 }
 #color3 {
