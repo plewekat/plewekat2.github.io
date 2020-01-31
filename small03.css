@@ -2,7 +2,6 @@
 body {
 	font-size: 16px;
         font-family: 'Montserrat', sans-serif;
-	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* phone or baseline views */
@@ -50,7 +49,7 @@ nav li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-family: 'Open Sans Condensed';
+	font-family: 'Montserrat';
 	font-size: 0.95rem;
 }
 
