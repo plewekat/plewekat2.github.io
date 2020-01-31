@@ -1,12 +1,14 @@
 @charset "UTF-8";
 body {
 	font-size: 16px;
-	font-family: "Open Sans Condensed";
+	font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Montserrat', sans-serif;
 }
 
 /* phone or baseline views */
 header, footer{
     background-color:rgb(000, 100, 100);
+    font: 'Montserrat';
     height: auto;
     align-items: center;
     border-radius:0.5rem;
@@ -48,6 +50,7 @@ nav li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
+	font-family: 'Open Sans Condensed';
 	font-size: 0.95rem;
 }
 
