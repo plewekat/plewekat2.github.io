@@ -10,7 +10,7 @@ header {
     font: 'Montserrat';
     height: auto;
     align-items: center;
-    border-radius:0.5rem;
+    border-radius:0.0rem;
     padding:0.75rem;
     margin: 0 auto;
     text-align: center;
@@ -18,7 +18,7 @@ header {
 }
 .box {
     float: left;
-    width: 150px;
+    width: 180px;
     height: 150px;
     margin-right: 30px;
 }
@@ -32,7 +32,7 @@ footer {
     	font: 'Montserrat';
     	height: auto;
     	align-items: center;
-    	border-radius:0.5rem;
+    	border-radius:0.0rem;
     	padding:0.75rem;
     	margin: 0 auto;
     	text-align: center;
