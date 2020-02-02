@@ -16,10 +16,10 @@ header {
     text-align: center;
     
 }
-.box {
+box {
     float: left;
     width: 180px;
-    height: 150px;
+    height: 100px;
     margin-right: 30px;
 }
 .weatherSummary {
