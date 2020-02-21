@@ -45,10 +45,10 @@ footer {
 }
 h1 {
 	font-size: 2rem;
-  color: #fff;
+  color: brown;
 }
 h2 {
-	color: #B55800;
+	color: brown;
 }
 
 nav {
@@ -60,6 +60,7 @@ nav {
 }
 nav ul {
 	list-style-type: none;
+	background-color: white
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
