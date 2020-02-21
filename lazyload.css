@@ -1,1 +1,15 @@
+body {
+margin: 0;
+font-family: "Barlow";
+overflow-x: hidden;
+}
 
+img {
+min-width: 50px;
+min-height: 50px;
+border: 1px solid brown;
+}
+
+.site-logo {
+
+}
