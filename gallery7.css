@@ -52,9 +52,7 @@ h2 {
 }
 
 nav {
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 300px 300px 300px;
+  display: flex;
   justify-content: center;
   background-color: gray;
 	text-align: center;
@@ -87,7 +85,8 @@ nav a:hover {
 
 .gridContainer {
 display: grid;
-grid-template: 	
+grid-template-columns: 400px 400px 400px;
+grid-template-rows: 300px 300px 300px;
 grid-gap: 30px;
 grid-template-columns: auto auto auto auto;
 }
