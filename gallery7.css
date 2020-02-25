@@ -84,7 +84,7 @@ nav a:hover {
  display: grid;
 }
 
-.gridContainer {
+.grid-container {
 display: grid;
 grid-template-columns: 400px 400px 400px;
 grid-template-rows: 300px 300px 300px;
