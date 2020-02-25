@@ -83,8 +83,18 @@ nav a:hover {
  display: grid;
 }
 
+.gridContainer {
+display: grid;
+grid-template: 	
+grid-gap: 30px;
+grid-template-columns: auto auto auto auto;
+}
+
 .container {
-  position: relative;
+display: grid;
+grid-template: 	
+grid-gap:
+position: relative;
 }
 
 .weatherContainer {
