@@ -8,7 +8,7 @@ body {
 .header {
     background-color:rgb(124, 161, 173);
     font: 'Montserrat';
-    height: auto;
+    height: 200;
     border-radius:0.3rem;
     padding:0.75rem;
     margin: 10px 10px;
@@ -26,6 +26,8 @@ body {
 img {
 float: right;
 height: 200px;
+padding: 10px;
+border-radius: 0.3rem;
 }
 
 .weatherSummary {
@@ -37,27 +39,34 @@ header,
 nav,
 main,
 footer {
-  display: block;
+  display: flex;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-	font-family: 'Montserrat';
+	font-family: 'Barlow';
 	font-size: 0.95rem;
   color: white;
 	border-radius:0.3rem;
   margin: 10px 10px;
 }
 h1 {
-	font-size: 2rem;
-  color: #fff;
+    background-color:rgb(124, 161, 173);
+    font: 'Montserrat';
+    height: 200;
+    border-radius:0.3rem;
+    padding:0.75rem;
+    margin: 10px;
+    text-align: left;
+	color: white;
 }
 h2 {
+	padding: 10px;
 	color: #B55800;
 }
 
 nav {
   display: flex;
-  justify-content: center;
+	justify-content: center;
   background-color: gray;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
@@ -65,14 +74,14 @@ nav {
 nav ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	overflow: hidden;
 }
 nav li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 0.75rem;
+	padding: 10px;
 	text-decoration: none;
 	font-family: 'Montserrat';
 	font-size: 0.95rem;
@@ -103,6 +112,12 @@ display: block;
   position: relative;
 }
 
+.positioned {
+  position: right;
+  top: 3px;
+  left: 300px;
+}
+
 .weatherContainer {
   position: relative;
   background-image: url("sactoweather2.png");
@@ -110,6 +125,19 @@ display: block;
 
 .active {
 	color: yellow;
+}
+
+.footer {
+	background-color:rgb(124, 161, 173);
+  display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-size: .95rem;
+  color: white;
+	border-radius:0.3rem;
+  margin: 30px 10px;
 }
 
 /* Tablet Views */
