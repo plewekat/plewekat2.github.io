@@ -14,6 +14,7 @@ header {
     padding:0.75rem;
     margin: 0 auto;
     text-align: center;
+    box-shadow: 0 2px 15px lightgray;
     
 }
 box  {
@@ -54,12 +55,12 @@ h2 {
 nav {
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: #00394d;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
 
-nav {
+.nav {
 	margin: 0 auto;
 	max-width: 760px;
 	background-color: #000;
@@ -76,14 +77,14 @@ nav {
 }
 .navigation a {
 	display: block;
-	color: #fff;
+	color: #d9b38c;
 	padding: 0.75rem;
 	text-align: left;
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #000;
-	background-color: #fff;
+	color: #4d3319;
+	background-color: #d9b38c;
 	font-weight: 700;
 }
 
@@ -101,7 +102,6 @@ nav {
 		flex: 1 1 100%;
 	}
 	.navigation li a {
-		color: white;
 		text-align: center;
 	}
 	
