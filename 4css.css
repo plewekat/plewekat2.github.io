@@ -31,7 +31,7 @@ box  {
 }
 
 .weatherContainer {
-  background-image: url("https://github.com/plewekat/plewekat.github.io/blob/master/cloudPlaceholder.jpg"); 
+  background-image: url(cloudPlaceholder.jpg); 
   background-color: #cccccc;
   height: 250px; 
   background-position: center;
