@@ -4,7 +4,6 @@ body {
         font-family: 'Montserrat', sans-serif;
 }
 
-/* phone or baseline views */
 header {
     background-color: #A4C4D9;
     font: 'Montserrat';
@@ -114,4 +113,9 @@ nav {
 	.navigation li:first-child {
 		display: none;
 	}
+}
+
+
+/* Media Query for large + screens */
+@media only screen and (min-width: 64em) {
 }
