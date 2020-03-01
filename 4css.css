@@ -33,6 +33,7 @@ box  {
 .weatherContainer {
    background-image: url("cloudPlaceholder.jpg");
    width: 760px;
+   background-color: #cccccc
 }
 
 header,
