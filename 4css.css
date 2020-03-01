@@ -30,6 +30,11 @@ box  {
   height: 200px;
 }
 
+.weatherContainer {
+   background-image: url("cloudPlaceholder.jpg");
+   width: 760px;
+}
+
 header,
 nav,
 main,
