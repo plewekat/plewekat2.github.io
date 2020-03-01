@@ -24,6 +24,10 @@ box  {
   margin-right: 30px;
 }
 
+.message {
+  
+}
+
 .weatherSummary {
   padding: 20px;
   width: 200px;
@@ -31,12 +35,22 @@ box  {
 }
 
 .weatherContainer {
+  margin: 10px auto;
+  position: relative;
   background-image: url(cloudPlaceholder.jpg); 
   background-color: #cccccc;
   height: 250px; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.currentWeather {
+  padding: 20px 20px;
+  background: rgba(235, 235, 224, 0.75);
+  position: absolute;
+  top: 1rem;
+  
 }
 
 header,
