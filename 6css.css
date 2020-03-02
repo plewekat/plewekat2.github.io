@@ -66,6 +66,14 @@ main {
 	max-width: 767px;
 	margin: 0 auto;
 }
+main figure.articlePic {
+width: 50%;
+}
+
+main figure.articlePic img {
+width: 100%;
+}
+
 footer {
     font: 'Montserrat';
     height: auto;
