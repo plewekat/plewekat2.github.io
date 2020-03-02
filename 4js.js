@@ -4,3 +4,11 @@ hambutton.addEventListener("click", toggleMenu, false);
 function toggleMenu() {
   document.querySelector(".navigation").classList.toggle("responsive");
 }
+
+WebFont.load({
+  google: {
+    families: [
+       'Montserrat'
+    ]
+  }
+});
