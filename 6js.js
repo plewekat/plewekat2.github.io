@@ -8,3 +8,11 @@ function toggleMenu() {
 function myFunction(elmnt,clr) {
   elmnt.style.color = clr;
 }
+
+WebFont.load({
+  google: {
+    families: [
+       'Montserrat'
+    ]
+  }
+});
