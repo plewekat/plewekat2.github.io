@@ -41,12 +41,23 @@
   
 <h2>Preston, Idaho</h2>
   <br>
-  
+  	
+<picture>
+  <source srcset="preston200.jpg" media="(max-width: 199px)">
+  <source srcset="preston500.jpg" media="(max-width: 499px)">
+  <source srcset="preston800.jpg" media="(max-width: 799px)">
+  <source srcset="preston1100.jpg" media="(max-width: 1099px)">
+  <source srcset="preston200.jpg">
+  <img src="preston200.jpg" alt="Preston" style="width:auto;">
+</picture>
+	<br>
+	<br>
+	
   <div class="weatherContainer">	  
 	  <picture>
 	<img src="preston200.jpg" alt="PrestonImg"
 	srcset="preston200.jpg 200w, preston500.jpg 500w, preston800.jpg 800w" 
-	     sizes="100vw" align="left" />	
+	     sizes="100vw" align="left">	
    </picture>
   <div class="weatherSummary" align="left">
     <section class="currentWeather">
@@ -59,6 +70,7 @@
 </div>
   <br>
   <div class="container">
+  <br>
   <div class="forecast">
      <div class="box"><img src="sacto5dayforecast.jpg" width ="600" height ="auto" align ='center'></div>
   </div>
