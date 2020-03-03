@@ -36,10 +36,9 @@ box  {
 
 .weatherContainer {
   margin: 10px auto;
-  position: relative;
   background-color: #cccccc;
-  height: 250px; 
-  background-position: center;
+  height: auto; 
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
