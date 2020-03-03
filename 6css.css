@@ -52,8 +52,7 @@ box  {
 }
 
 header,
-nav,
-main {
+nav {
     	font: 'Montserrat';
     	height: auto;
     	align-items: center;
