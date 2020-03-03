@@ -39,10 +39,9 @@ box  {
 }
 
 .weatherContainer {
-  margin: 10px auto;
   background-color: #cccccc;
   height: auto; 
-  background-position: left;
+  background-position: relative;
   background-repeat: no-repeat;
   max-width: 767px;
 }
