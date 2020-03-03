@@ -164,7 +164,7 @@ nav {
 		display: none;
 	}
   .forecast {
- display: block;
+ display: flex;
 }
 }
 
