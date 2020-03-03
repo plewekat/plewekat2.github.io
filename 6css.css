@@ -36,6 +36,7 @@ box  {
 
 .container {
   padding: 20px;
+  max-width: 767px;
 }
 
 .weatherContainer {
@@ -52,7 +53,8 @@ box  {
 }
 
 header,
-nav {
+nav,
+main {
     	font: 'Montserrat';
     	height: auto;
     	align-items: center;
