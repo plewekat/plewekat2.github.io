@@ -41,8 +41,6 @@ box  {
 .weatherContainer {
   background-color: #cccccc;
   height: auto; 
-  background-position: relative;
-  background-repeat: no-repeat;
   max-width: 767px;
 }
 
