@@ -5,7 +5,7 @@ threshold: 0,
 rootMargin: "0px 0px 50px 0px"
 };
 
-const loadImages = (image) => {
+const loadImages = (imagesToLoad) => {
   image.setAttribute("src", image.getAttribute("data-src"));
   image.onload = () => { image.removeAttribute('data-src');};
 };
