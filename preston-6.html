@@ -43,10 +43,19 @@
   <br>
   <div class="weatherContainer">	  
 	  <picture>
+	<source srcset="preston800.jpg" alt="PrestonImg"
+	media="(min-width: 800px)"/>
+        <source srcset="preston500.jpg" alt="PrestonImg"
+	media="(min-width: 500px)"/>		          
+	<source srcset="preston200.jpg" alt="PrestonImg"
+	media="(min-width: 200px)"/>
+	  </picture>
+	  
+	  <figure>
 	<img src="preston200.jpg" alt="PrestonImg"
 	srcset="preston200.jpg 200w, preston500.jpg 500w, preston800.jpg 800w" 
 	     sizes="100vw" align="left">	
-   </picture>
+   </figure>
   <div class="weatherSummary" align="left">
     <section class="currentWeather">
     <h2>Weather Summary</h2>
