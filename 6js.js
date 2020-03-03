@@ -1,3 +1,8 @@
+const radius = parseFloat(document.getElementById('r').textContent);
+const PI = Math.PI;
+document.getElementById('pi').textContent = PI;
+document.getElementById('area').textContent = PI * Math.pow(radius, 2);
+
 const hambutton = document.querySelector(".ham");
 hambutton.addEventListener("click", toggleMenu, false);
 
@@ -15,4 +20,16 @@ WebFont.load({
        'Montserrat'
     ]
   }
+});
+
+let message = "hello world"
+
+let paragraphs = document.getElementsByTagName("p")
+let paragraph = document.querySelector(".output p:nth-child(2)");
+
+paragraph.innerHTML = message + "Number of paragraphs in document is" + paragraphs.length;
+
+const buttonElement = document.querySelector('#btn');
+buttonElement.addEventListener('click', function (event) {
+
 });
