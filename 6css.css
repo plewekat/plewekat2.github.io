@@ -34,13 +34,16 @@ box  {
   height: 200px;
 }
 
+.container {
+  padding: 20px;
+}
+
 .weatherContainer {
   margin: 10px auto;
   background-color: #cccccc;
   height: auto; 
   background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .currentWeather {
