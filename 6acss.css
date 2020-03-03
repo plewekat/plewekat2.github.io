@@ -47,10 +47,9 @@ box  {
 
 .currentWeather {
   padding: 20px 20px;
-  background: rgba(235, 235, 224, 0.75);
+  background: rgba(235, 240, 250, 0.75);
   position: absolute;
   top: 1rem;
-  
 }
 
 header,
