@@ -168,6 +168,22 @@ nav {
 }
 }
 
+@media screen and ( max-width: 499px ) {
+img.responsive { width: 200px; }
+}
+@media screen and ( min-width:500px ) and ( max-width: 799px ) {
+img.responsive { width: 500px; }
+}
+@media screen and ( min-width: 800px ) and ( max-width: 1099px ){
+img.responsive { width: 800px; }
+}
+@media screen and ( min-width: 1100px ){
+img.responsive { width: 1100px; }
+		
+}
+img.responsive { height: auto; }
+
+
 /* Media Query for large + screens */
 @media only screen and (min-width: 64em) {
   header {
