@@ -37,7 +37,7 @@ box  {
 .weatherContainer {
   margin: 10px auto;
   position: relative;
-  background-image: url(preston500.jpg); 
+  background-image: url(preston200.jpg); 
   background-color: #cccccc;
   height: 250px; 
   background-position: center;
@@ -156,6 +156,9 @@ nav {
 	.navigation li:first-child {
 		display: none;
 	}
+	.weatherContainer {
+	background-image: url(preston500.jpg);
+	}
   .forecast {
  display: block;
 }
@@ -170,4 +173,8 @@ nav {
   nav {
     max-width: none;
   }
+
+.weatherContainer {
+background-image: url(preston800.jpg);
+}
 }
