@@ -50,8 +50,16 @@ footer {
 	max-width: 767px;
 	margin: 0 auto;
 }
+figure {
+  background: #007399;
+}
+
+figcaption {
+  color: #bbb;
+}
+
 h1 {
-	font-size: 2rem;
+	font-size: 4rem;
   color: #fff;
 }
 h2 {
