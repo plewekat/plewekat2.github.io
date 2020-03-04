@@ -75,6 +75,11 @@ h1 {
 h2 {
 	color: #B55800;
 }
+
+figcaption {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -185,15 +190,22 @@ header {
   figure:hover {
     box-shadow: 0 0 50px #1139;
   }
-	.grid-container { 
-	display: grid;        
-    justify-content: center;
-    grid-template-columns: auto auto auto;
-	}
-	article:nth-child(3) {
-	grid-column: span 1;
-	}
+	figcaption {
+  display: grid;
+  color: #bbb;
+  padding: 0 0 10px 0;
 }
+.grid-container { 
+  display: grid;        
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+	
+article:nth-child(3) {
+  grid-column: span 1;
+}
+}
+	
 #color{
 	background-color:rgb(101, 111, 167);
 }
