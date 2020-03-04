@@ -20,11 +20,10 @@ const observer = new IntersectionObserver((items, observer) => {
   });
 });
 
-imagesToLoad.forEach((img => {
+imagesToLoad.forEach((img) => {
 observer.observe(img)
 });                     
-}
-else {
+} else {
   imagesToLoad.forEach((img) => {
   loadImages(img);
 });
