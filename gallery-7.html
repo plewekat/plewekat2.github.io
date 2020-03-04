@@ -4,54 +4,91 @@
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	  <link rel="stylesheet" href="normalize.css">
-	  <title>Weather Gallery</title>	
+	  <title>Lazy Loading</title>	
 	  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	  <link rel="shortcutIcon" href="favicon.ico">
-	  <link rel="stylesheet" href="gallery7.css">	
+	  <link rel="stylesheet" href="lazyload.css">	
 			    
   </head>						    
   <body>
+    <header>
+<script type="text/javascript">
+    var date = new Date();
+    console.log(date.getDay());
+    console.log(date.getHours());
+    if(date.getDay() === 7) {
+      console.log("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
+    }
+</script>
+  <div class="box"><img src="sactoWeather.jpg" width ="180" height ="100" align ='left'></div>
+    
+<h1>SacTo Weather</h1>
+  <p>Sacramento Weather and Beyond</p>
+</header>
+  
+<nav>
+	<ul class="navigation">
+		<li><a class="ham" href="#">&#9776; Menu</a></li>
+		<li><a href="#" onclick="myFunction(this, 'white')">Home</a></li>
+		<li><a href="http://plewekat.github.io/preston-4.html">Preston</a></li>
+		<li><a href="#">Soda Springs</a></li>
+		<li><a href="#">Fish Haven</a></li>
+		<li><a href="#">Storm Center</a></li>
+		<li><a href="#">Gallery</a></li>
+	</ul>
+</nav>
    <main>
       <h1>Weather Gallery</h1>		  
       <div class="grid-container">
        <figure>
-	  <img src="water1.jpg" data-src="water1.jpg" alt="splashes">
-	       <figcaption>Drip</figcaption>
+	  <img src="water1.jpg" data-src="water1.jpg">
+         <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>
        <figure>
-	  <img src="water2.jpg" data-src="water2.jpg" alt="splashes">
-	       <figcaption>Plop</figcaption>	       
+	  <img src="water2.jpg" data-src="water2.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>								 
        <figure>
-	  <img src="Placeholder.jpg" data-src="water3.jpg" alt="splashes">
-	       <figcaption>Cling</figcaption>
+	  <img src="water3.jpg" data-src="water3.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>								 
        <figure>
-	  <img src="Placeholder.jpg" data-src="water4.jpg" alt="splashes">
-	       <figcaption>Drop</figcaption>
+	  <img src="water4.jpg" data-src="water4.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>
        <figure>
-	  <img src="Placeholder.jpg" data-src="water5.jpg" alt="splashes">
-	       <figcaption>Forest</figcaption>
+	  <img src="water5.jpg" data-src="water5.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>
        <figure>
-	  <img src="Placeholder.jpg" data-src="water6.jpg" alt="splashes">
-	       <figcaption>Pour</figcaption>
+	  <img src="water6.jpg" data-src="water6.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>	
        <figure>
-	  <img src="Placeholder.jpg" data-src="water7.jpg" alt="splashes">
-	       <figcaption>Splash</figcaption>
+	  <img src="water7.jpg" data-src="water7.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>
        <figure>
-	  <img src="Placeholder.jpg" data-src="water8.jpg" alt="splashes">
-	       <figcaption>Blast</figcaption>
+	  <img src="water8.jpg" data-src="water8.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>
        <figure>
-	  <img src="Placeholder.jpg" data-src="water9.jpg" alt="splashes">
-	       <figcaption>Drench</figcaption>
+	  <img src="water9.jpg" data-src="water9.jpg">
+                  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
        </figure>							     
       </div>
-    </main>							       
-    <script src="gallery7.js"></script>
+    </main>
+      
+<footer>
+<p>
+© 2020 | Katharine Weber | California |
+<a id="style.link" href="https://www.byui.edu/online">https://www.byui.edu/online</a>
+</p>
+<span id=getdate2"></span>
+<script> document.write("Page was last modified on: " + document.lastModified);</script>
+</footer>
+<script type="text/javascript" src="6js.js"></script>
+</body>
+    <script type="text/javascript" src="gallery7.js"></script>
   </body>
 </html>
