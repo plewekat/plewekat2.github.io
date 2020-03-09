@@ -1,87 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-us"
 <head>
-<title>Weather Planning Page</title>
+<title>table</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, intitial-scale=1">
 <meta name="index.html" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="6acss.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tablebuild.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 <link rel="links" href="target-audience.html">
 </head>
 <body>
-<header>
-<script type="text/javascript">
-    var date = new Date();
-    console.log(date.getDay());
-    console.log(date.getHours());
-    if(date.getDay() === 7) {
-      console.log("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
-    }
-</script>
-  <div class="box"><img src="sactoWeather.jpg" width ="180" height ="100" align ='left'></div>
-    
-<h1>SacTo Weather</h1>
-  <p>Sacramento Weather and Beyond</p>
-</header>
-  
-<nav>
-	<ul class="navigation">
-		<li><a class="ham" href="#">&#9776; Menu</a></li>
-		<li><a href="#" onclick="myFunction(this, 'white')">Home</a></li>
-		<li><a href="http://plewekat.github.io/preston-4.html">Preston</a></li>
-		<li><a href="#">Soda Springs</a></li>
-		<li><a href="#">Fish Haven</a></li>
-		<li><a href="#">Storm Center</a></li>
-		<li><a href="#">Gallery</a></li>
-	</ul>
-</nav>
-  
-<main> 
-  
-<h2>Preston, Idaho</h2>
-  <br>
-  
-  <div class="weatherContainer">
-  <div class="weatherSummary" align="left">
-    <section class="currentWeather">
-    <h2>Weather Summary</h2>
-     <p>Currently: Sunny</p>
-     <p>High: &nbsp; <span id="t">45</span>°</p>
-     <p>Wind chill: <span id="f"></span></p>
-     <p>Humidity: 19%</p>
-     <p>Wind speed: &nbsp; <span id="s">9</span>mph</p>
-</section>
-  </div>
-</div>
-  <br>
-  <div class="container">
-  <div class="forecast">
-     <div class="box"><img src="sacto5dayforecast.jpg" width ="600" height ="auto" align ='center'></div>
-  </div>
-  </div>
-<br>
-  <div class="container">
-  <div class="article">
-  <div class="box"><img src="sactoWeather.jpg" width ="180" height ="100" align ='right'></div>
-    
-<h2>Article</h2>
-  <p>An article about the weather</p>
-</div>
-  </div>
-  <br>
-<br>		
- <div class="container">
- <br>
- <div class="contact">
-   <div class="box"><img class="forecast" src="prestonMap.JPG" width ="auto" height ="240" align ='left'></div>
 
-<h2>Preston, Idaho</h2>
-<p><img src="sactoLocation.jpg" height ="25">  Preston, Idaho</p><p><img src="sactoemail.jpg" height ="25">  sactoweather@gmail.com</p><p><img src="sactoPhone.jpg" height ="25">  (818)181-1818</p><br>
-<p><img src="sactoInsta.jpg" height ="25">   <img src="sactoFB.jpg" height ="25">   <img src="sactoTwitter.jpg" height ="25"></p>
-</div>
-  </div>
-  <br>
+<main> 
+  <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
 </main>
   
 <footer>
