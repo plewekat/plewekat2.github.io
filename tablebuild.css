@@ -14,8 +14,9 @@ main {
     	margin: 0;
     	text-align: center;
 	max-width: 767px;
-	margin: 0 auto;
+	margin: auto;
     font-weight: bold;
+  font-size: 1.5rem; 
 }
 footer {
     font: 'Ubuntu';
@@ -27,7 +28,7 @@ footer {
     text-align: center;
 	  max-width: 767px;
 	  margin: 0 auto;
-
+    font-size: .75rem;
 }
 
 h1 {
@@ -43,9 +44,26 @@ table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
   border-color: #b5b5b5;
-  padding: 15px;
-  font-size: 1.15rem;
-  font-weight: bold;
+  padding: 12px;
+  font-size: 1.35rem;
+  align-items: center;
+}
+
+.special{
+  background: #628ca6;
+  color: white;
+}
+tr:nth-child(1) {
+  background: #7fb9c2;
+}
+
+tr:nth-child(odd) {
+  background: #e7f0ed;
+}
+tr:nth-child(even) {
+  background: #e7ffed;}
+tr:nth-child(9) {
+  background: #7fb9c2;
 }
 tr:nth-child(1) {
   background: #7fb9c2;
@@ -54,24 +72,6 @@ tr:nth-child(2) {
   background: #628ca6;
   color: white;
 }
-tr:nth-child(3) {
-  background: #e7f0ed;
-}
-tr:nth-child(4) {
-  background: #e7ffed;
-}
-tr:nth-child(5) {
-  background: #e7f0ed;
-}
-tr:nth-child(6) {
-  background: #e7ffed;
-}
-tr:nth-child(7) {
-  background: #e7f0ed;
-}
-tr:nth-child(8) {
-  background: #e7ffed;
-}
-tr:nth-child(9) {
-  background: #7fb9c2;
+table {
+    box-shadow: 15px 15px 20px #5d879c;
 }
