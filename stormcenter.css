@@ -58,13 +58,21 @@ nav,
 main {
     	font: 'Montserrat';
     	height: auto;
-    	align-items: center;
     	border-radius:0.0rem;
     	padding: 0.15rem;
-    	margin: 0;
-    	text-align: center;
-	max-width: 767px;
+  align: center;
+	max-width: 400px;
 	margin: 0 auto;
+}
+
+.stormbox {
+ display: flex;
+  justify-content: center;
+  background-color: white;
+	text-align: left;
+	box-shadow: 0 2px 15px gray;
+  max-width: 400px;
+}
 }
 footer {
     font: 'Montserrat';
@@ -180,12 +188,13 @@ background-image: url(preston800.jpg);
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid blue;
+  border: 1px gray;
   border-radius: 5px;
   padding: .5rem 2%;
 }
 form legend {
-  color: blue;
+  color: black;
+  font-size: 2rem;
   margin: 0 1rem;
   padding: 0 .5rem;
 }
@@ -193,7 +202,7 @@ form legend {
 form label.top, form div {
   display: block;
     padding-top: 1rem;
-  color: red;
+  color: gray;
   font-size: .8rem;
   
 }
@@ -211,15 +220,15 @@ form label.top input, form label.top select {
 }
 
 form label.sbs {
-  display: block;
-  padding: .75rem;
-
+text-align: left;
+display: block;
+  padding: .5rem;
   color: #555;
 }
 
 form input.submitBtn {
   border: none;
-  background-color: red;
+  background-color: gray;
   color: white;
   border-radius: .5rem;
   padding: .75rem 1.5rem;
