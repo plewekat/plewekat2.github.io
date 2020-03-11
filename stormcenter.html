@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-us"
+<html lang="en-us">
 <head>
 <title>Weather Planning Page</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, intitial-scale=1">
 <meta name="index.html" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="stormcenter.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="6acss.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 <link rel="links" href="target-audience.html">
 </head>
 <body>
 <header>
-<script type="text/javascript">
+<script>
     var date = new Date();
     console.log(date.getDay());
     console.log(date.getHours());
@@ -19,8 +19,8 @@
       console.log("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
     }
 </script>
-  <div class="box">
-  <div><img src="sactoWeather.jpg" width ="180" height ="100" align ='left'></div>
+  <div>
+  <div class="box"><img src="sactoWeather.jpg" width ="180" height ="100" alt="logo"></div>
     
 <h1>SacTo Weather</h1>
   <p>Sacramento Weather and Beyond</p>
@@ -45,22 +45,22 @@
     <fieldset class="stormbox">
       Personal Information
       <label class="top">Full Name* <input type="text" name="name" required></label>
-      <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com">
+      <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
       <label class="top">Phone <input type="tel" name="phone" placeholder="123555789" required></label>
-      <label class="top">Zip Code <input type="text" name="zip" placeholder="12345" required>
+      <label class="top">Zip Code <input type="text" name="zip" placeholder="12345" required></label>
         
          </fieldset>
         <fieldset class="stormbox">
           Storm Information
-       <label class="top">Storm Date <input type="date" name="storm" value="yes"></label>
+       <label class="top">Storm Date <input type="date" name="storm"></label>
         
-            <label class="top">Storm Type <select name="subject"> 
+            <label class="top">Storm Type <select name="subject">
       <option value=""> Please Select </option>
-            <option value="software"> Flash Flood </option>
-            <option value="software"> Hail </option>
-            <option value="software"> Hurricane </option>
-            <option value="software"> Thunderstorm </option>
-            <option value="software"> Tornado </option>
+            <option value="stormy"> Flash Flood </option>
+            <option value="stormy"> Hail </option>
+            <option value="stormy"> Hurricane </option>
+            <option value="stormy"> Thunderstorm </option>
+            <option value="stormy"> Tornado </option>
       </select>
       </label>
         
@@ -85,7 +85,7 @@
       
   
             <label class="top">Storm Region <select name="subject"> 
-      <option selected="true" disabled="disabled">Select Region </option>
+      <option selected disabled>Select Region </option>
             <option value="town"> Preston </option>
             <option value="town"> Soda Springs </option>
             <option value="town"> Fish Haven </option>
@@ -95,30 +95,25 @@
         <label class="top">User in danger: </label>
         <label class="sbs"><input type="radio" name="danger" value="No" >No</label>
         <label class="sbs"><input type="radio" name="danger" value="Maybe">Maybe</label>
-        <label class="sbs"><input type="radio"name="danger" value="Yes">Yes</label>
+        <label class="sbs"><input type="radio" name="danger" value="Yes">Yes</label>
         
-        </fieldset>
-
-  
     </fieldset>
         <fieldset class="stormbox">
 Comments
-   <label class="top"><input type="text" name="authors"></label>
+          <label class="top"><textarea id="stormtext" rows="4" cols="47"></textarea></label>
     </fieldset>
           
       <input type="submit" value="Submit" class="submitBtn">
       </form>
 
-	
-	
  <div class="contact">
-   <div class="box"><img class="forecast" src="prestonMap.JPG" width ="auto" height ="240" align ='left'></div>
-
-<h2>Preston, Idaho</h2>
-<p><img src="sactoLocation.jpg" height ="25">  Preston, Idaho</p><p><img src="sactoemail.jpg" height ="25">  sactoweather@gmail.com</p><p><img src="sactoPhone.jpg" height ="25">  (818)181-1818</p><br>
-<p><img src="sactoInsta.jpg" height ="25">   <img src="sactoFB.jpg" height ="25">   <img src="sactoTwitter.jpg" height ="25"></p>
+   <div class="box"><img class="forecast" src="prestonMap.JPG" height ="140" alt="logo"></div>
+   <br>
+<h3>Preston, Idaho</h3>
+<p><img src="sactoLocation.jpg" height ="25" alt="logo">Preston, Idaho</p>
+<p><img src="sactoemail.jpg" height ="25" alt="email">  sactoweather@gmail.com</p><p><img src="sactoPhone.jpg" height ="25" alt="phone">  (818)181-1818</p><br>
+<p><img src="sactoInsta.jpg" height ="25" alt="insta">   <img src="sactoFB.jpg" height ="25" alt="facebook">   <img src="sactoTwitter.jpg" height ="25" alt="twitter"></p>
 </div>
-  </div>
   <br>
 </main>
   
@@ -127,9 +122,8 @@ Comments
 © 2020 | Katharine Weber | California |
 <a id="style.link" href="https://www.byui.edu/online">https://www.byui.edu/online</a>
 </p>
-<span id=getdate2"></span>
-<script> document.write("Page was last modified on: " + document.lastModified);</script>                                            </footer>
-<script type="text/javascript" src="6js.js"></script>
-
- </body>
-                                           
+<span id="getdate2"></span>
+<script> document.write("Page was last modified on: " + document.lastModified);</script>                                            
+</footer>
+<script src="6js.js"></script>
+</body>
