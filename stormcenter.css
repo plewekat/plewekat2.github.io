@@ -16,11 +16,12 @@ header {
     box-shadow: 0 2px 15px lightgray;
     
 }
-box  {
-  width: 180px;
+.box  {
+  float: left;
+  width: auto;
   border: 0px;
-  padding: 20px;
-  height: 150px;
+  padding: 0px 0px 0px 20px;
+  height: 100px;
   margin-right: 10px;
 }
 
@@ -61,7 +62,7 @@ footer {
     	height: auto;
     	border-radius:0.0rem;
     	padding: 0.15rem;
-  align: center;
+  text-align: center;
 	max-width: 400px;
 	margin: 0 auto;
 }
@@ -74,7 +75,7 @@ footer {
 	box-shadow: 0 2px 15px gray;
   max-width: 400px;
 }
-}
+
 footer {
     font: 'Montserrat';
     height: auto;
@@ -86,7 +87,7 @@ footer {
 	  max-width: 767px;
 	  margin: 0 auto;
    font-size: .75rem;
-    align: center;
+    text-align: center;
 }
 
 h1 {
@@ -96,6 +97,13 @@ h2 {
 	color: #B55800;
   text-align: center;
   font-size: 3rem;
+  padding: 0 0 0 30px;
+}
+
+h3 {
+	color: #B55800;
+  text-align: right;
+  font-size: 2rem;
   padding: 0 0 0 30px;
 }
 
@@ -131,7 +139,7 @@ nav {
 .navigation a:hover {
 	color: #4d3319;
 	background-color: #ebebe0;
-	font-weight: 650;
+	font-weight: 600;
 }
 
 .responsive li {
@@ -139,7 +147,7 @@ nav {
 }
 
 .forecast {
- display: none;
+display: none;
 }
 
 .contact {
@@ -172,6 +180,7 @@ nav {
 	}
   .forecast {
  display: block;
+ float: left;
 }
 }
 
@@ -200,7 +209,7 @@ form fieldset {
 form legend {
   color: black;
   font-size: 2rem;
-  margin: 2 1rem;
+  margin: 2rem 1rem;
   
 }
 
