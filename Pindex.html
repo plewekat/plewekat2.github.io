@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>storm center</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1">
+<meta name="index.html" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stormcenter.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="links" href="target-audience.html">
+</head>
+<body>
+<header>
+<script>
+    var date = new Date();
+    console.log(date.getDay());
+    console.log(date.getHours());
+    if(date.getDay() === 7) {
+      console.log("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
+    }
+</script>
+  <div>
+  <div class="box"><img src="sactoWeather.jpg" width ="180" height ="100" alt="logo"></div>
+    
+<h1>SacTo Weather</h1>
+  <p>Sacramento Weather and Beyond</p>
+  </div>
+</header>
+  
+<nav>
+	<ul class="navigation">
+		<li><a class="ham" href="#">&#9776; Menu</a></li>
+		<li><a href="#" onclick="myFunction(this, 'white')">Home</a></li>
+		<li><a href="http://plewekat.github.io/preston-6a.html">Preston</a></li>
+		<li><a href="http://plewekat.github.io/SodaSprings.html">Soda Springs</a></li>
+		<li><a href="http://plewekat.github.io/FishHaven.html">Fish Haven</a></li>
+		<li><a href="http://plewekat.github.io/stormcenter.html">Storm Center</a></li>
+		<li><a href="http://plewekat.github.io/gallery-7.html">Gallery</a></li>
+	</ul>
+</nav>
+  
+<main> 
+	    <h2>Storm Center</h2>
+  <form method="get" action="thanks.html">
+    <fieldset class="stormbox">
+      Personal Information
+      <label class="top">Full Name* <input type="text" name="name" pattern="[A-Za-z ]{5,}" required></label>
+      <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+      <label class="top">Phone* <input type="tel" name="phone" placeholder="123555789" required></label>
+      <label class="top">Zip Code* <input type="text" name="zip" placeholder="12345" required></label>
+        
+         </fieldset>
+        <fieldset class="stormbox">
+          Storm Information
+       <label class="top">Storm Date <input type="date" name="storm"></label>
+        
+            <label class="top">Storm Type <select name="subject">
+      <option value=""> Please Select </option>
+            <option value="stormy"> Flash Flood </option>
+            <option value="stormy"> Hail </option>
+            <option value="stormy"> Hurricane </option>
+            <option value="stormy"> Thunderstorm </option>
+            <option value="stormy"> Tornado </option>
+      </select>
+      </label>
+        
+        	<datalist id="tickmarks">
+  <option value="0">
+  <option value="1">
+  <option value="2">
+  <option value="3">
+  <option value="4">
+  <option value="5">
+  <option value="6">
+  <option value="7">
+  <option value="8">
+  <option value="9">
+  <option value="10">
+</datalist>
+
+    <label class="top">Storm Severity &nbsp;&nbsp;&nbsp;
+		<input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue"></span>
+		</label>
+      
+  
+            <label class="top">Storm Region <select name="subject"> 
+      <option selected disabled>Select Region </option>
+            <option value="town"> Preston </option>
+            <option value="town"> Soda Springs </option>
+            <option value="town"> Fish Haven </option>
+      </select>
+      </label>
+      
+        <label class="top">User in danger: </label>
+        <label class="sbs"><input type="radio" name="danger" value="No" >No</label>
+        <label class="sbs"><input type="radio" name="danger" value="Maybe">Maybe</label>
+        <label class="sbs"><input type="radio" name="danger" value="Yes">Yes</label>
+        
+    </fieldset>
+        <fieldset class="stormbox">
+Comments
+          <label class="top"><textarea id="stormtext" rows="4" cols="47"></textarea></label>
+    </fieldset>
+          
+      <input type="submit" value="Submit" class="submitBtn">
+      </form>
+
+ <div class="contact">
+   <div class="box"><img class="forecast" src="prestonMap.JPG" height ="140" alt="logo"></div>
+   <br>
+<h3>Preston, Idaho</h3>
+<p><img src="sactoLocation.jpg" height ="25" alt="logo">Preston, Idaho</p>
+<p><img src="sactoemail.jpg" height ="25" alt="email">  sactoweather@gmail.com</p><p><img src="sactoPhone.jpg" height ="25" alt="phone">  (818)181-1818</p><br>
+<p><img src="sactoInsta.jpg" height ="25" alt="insta">   <img src="sactoFB.jpg" height ="25" alt="facebook">   <img src="sactoTwitter.jpg" height ="25" alt="twitter"></p>
+</div>
+  <br>
+</main>
+  
+<footer>
+<p>
+© 2020 | Katharine Weber | California |
+<a id="style.link" href="https://www.byui.edu/online">https://www.byui.edu/online</a>
+</p>
+<span id="getdate2"></span>
+<script> document.write("Page was last modified on: " + document.lastModified);</script>                                            
+</footer>
+<script src="6js.js"></script>
+</body>
