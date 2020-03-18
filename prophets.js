@@ -6,17 +6,13 @@ fetch(requestURL)
   .then(function (jsonObject) {
   const prophets = jsonObject['prophets'];
    propehts.forEach(prophet => {
-   let card = document.createElement("section");
-   let h2 = document.createElement("h2");
-   }
+   let card = document.createElement('section');
+   let h2 = document.createElement('h2');
                     
-h2.textContent = `${prophets.name} {prophets.lastname}`;
-
-)}
-)}
+h2.textContent = `${prophet.name} ${prophet.lastname}`;
 
 card.appendChild(h2);
 
-document.querySelector('div.cards').appendChild(card);
-
-image.setAttribute('src', prophets[i].imageurl);
+document.querySelector('.cards').appendChild(card);
+   });
+});
