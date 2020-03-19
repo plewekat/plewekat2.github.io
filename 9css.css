@@ -87,7 +87,7 @@ box  {
 .weatherContainer {
   margin: 0px;
   position: relative;
-  background-image: url(preston200.jpg); 
+  background-image: url(cloudPlaceholder.jpg); 
   background-color: #cccccc;
   height: 270px; 
   background-position: center;
