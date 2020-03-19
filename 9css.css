@@ -69,6 +69,39 @@ nav {
 	box-shadow: 0 2px 15px #1139;
 }
 
+box  {
+  width: 180px;
+  border: 0px;
+  padding: 20px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.weatherSummary {
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  font-size: 0.8rem;
+}
+
+.weatherContainer {
+  margin: 0px;
+  position: relative;
+  background-image: url(preston200.jpg); 
+  background-color: #cccccc;
+  height: 270px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.currentWeather {
+  padding: 20px 20px;
+  background: rgba(235, 240, 250, 0.75);
+  top: 1rem;
+}
+
+
 .nav {
 	max-width: 760px;
 	background-color: #000;
@@ -103,6 +136,7 @@ nav {
 .header {
  display: grid;
 }
+
 .cards {
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -123,7 +157,8 @@ justify-content: center;
   width: 80%;
   height: auto;
 }
-
+  
+}
 
 .grid-container {
 display: grid;
