@@ -38,13 +38,13 @@ fetch(requestURL)
 }
 }
        if (towns[i].name == "Fish Haven"){ 
-       var image = document.createElement('img'); img.src="https://github.com/plewekat/plewekat.github.io/blob/master/images/fishHaven.jpg"}
+       var image = document.createElement('img'); img.src="https://plewekat.github.io/images/fishHaven.jpg"}
        
      if (towns[i].name == "Preston"){ 
        var image = document.createElement('img'); img.src="https://github.com/plewekat/plewekat.github.io/blob/master/images/preston.jpg"}
        
      if (towns[i].name == "Soda Springs"){ 
-       var image = document.createElement('img'); img.src="https://github.com/plewekat/plewekat.github.io/blob/master/images/sodaSprings.jpg"}
+       var image = document.createElement('img'); img.src="http://plewekat.github.io/images/sodaSprings.jpg"}
 
      
 }); 
