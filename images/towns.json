@@ -2,7 +2,7 @@
   "towns": [
     {
       "name": "Preston",
-      "photo": "plewekat.github.io/preston.jpg",
+      "photo": "images/preston.jpg",
       "motto": "Home of Napoleon Dynamite.",
       "yearFounded": 1866,
       "currentPopulation": 5204,
@@ -15,7 +15,7 @@
     },
     {
       "name": "Fish Haven",
-      "photo": "plewekat.github.io/fishHaven.jpg",
+      "photo": "images/fishHaven.jpg",
       "motto": "This is Fish Heaven.",
       "yearFounded": 1864,
       "currentPopulation": 501,
@@ -29,7 +29,7 @@
     },
         {
       "name": "Soda Springs",
-      "photo": "plewekat.github.io/sodaSprings.jpg",
+      "photo": "images/sodaSprings.jpg",
       "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
       "yearFounded": 1858,
       "currentPopulation": 2985,
