@@ -93,7 +93,7 @@ nav {
 .navigation a:hover {
 	color: #4d3319;
 	background-color: #ebebe0;
-	font-weight: 650;
+	font-weight: 600;
 }
 
 .responsive li {
@@ -126,13 +126,6 @@ display: grid;
 grid-template-columns: auto;
 grid-gap: 10px;
 justify-content: center;
-}
-
-.container {
-display: grid;
-grid-template: 	
-grid-gap:
-position: relative;
 }
 
 .active {
@@ -209,10 +202,11 @@ article:nth-child(3) {
 }
 #color2{
 	background-color: grey;
-	color: light blue;
+	color: blue;
 
 }
 #color3 {
 	background-color: #bbb;
 	color: #36454f;
+}
 }
