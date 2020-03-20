@@ -42,8 +42,7 @@ header {
 }
 
 .forecast img {
-  max-width: 50%;
-  height: auto;
+  width: 200px;
 }
 
 img {
