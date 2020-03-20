@@ -33,7 +33,7 @@ header {
 
 .mapbox {
   float: left;
-  width: 250px;
+  width: 400px;
   border: 0px;
   padding: 0px 0px 0px 10px;
   height: 250px;
@@ -199,7 +199,8 @@ padding: 10px;
 }
 
 .cards section h3 {
- padding: 15px;
+ height: 40px;
+ padding: 20px;
 }
 
 .cards section img {
@@ -235,6 +236,7 @@ footer {
 @media only screen and (min-width: 37.5em) {
 
   .mapbox {
+  width: 300px;
   margin: 10px;
   display: grid;
   justify-content: center;
@@ -265,6 +267,9 @@ footer {
 header {
 	max-width: none;
   }
+  
+  .mapbox {
+  width: 400px;
 
   nav {
     max-width: none;
