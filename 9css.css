@@ -41,8 +41,9 @@ header {
   display: none;
 }
 
-.forecast img {
-  width: 200px;
+.forecast {
+  max-width: 100%;
+  height: auto;
 }
 
 img {
