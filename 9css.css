@@ -38,8 +38,12 @@ header {
   padding: 0px 0px 0px 10px;
   height: 250px;
   margin-right: 10px;
-  background-color: white;
   display: none;
+}
+
+.forecast img {
+  max-width: 50%;
+  height: auto;
 }
 
 img {
