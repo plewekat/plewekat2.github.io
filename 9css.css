@@ -57,7 +57,6 @@ filter: blur(0.05em);
 }
 
 header,
-nav,
 main {
     	height: auto;
     	align-items: center;
@@ -109,9 +108,14 @@ box  {
 }
 
 .smaller {
+  height: 200px;
   font-size: .7rem;
 }
+.smaller img {
+  height: 25px;
+  padding: 5px 0 0 0;
 
+}
 .top {
     display: grid;
     grid-template-columns: auto auto;
