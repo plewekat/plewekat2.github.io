@@ -80,12 +80,18 @@ footer {
 	  margin: 0 auto;
    font-size: .75rem;
 }
+
 h1 {
   color: #7d3d00;
   font-family: 'Raleway', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin: .01rem;
 }
+
+p{
+  font-size: .9rem;
+}
+
 h2 {
 	color: #B55800;
   font-family: 'Raleway', sans-serif;
@@ -99,7 +105,7 @@ nav {
 	box-shadow: 0 2px 15px #1139;
 }
 
-box  {
+box {
   width: 180px;
   border: 0px;
   padding: 20px 20px 20px 0px;
@@ -111,11 +117,12 @@ box  {
   height: 200px;
   font-size: .7rem;
 }
+
 .smaller img {
   height: 25px;
   padding: 5px 0 0 0;
-
 }
+
 .top {
     display: grid;
     grid-template-columns: auto auto;
@@ -127,6 +134,7 @@ box  {
     font-size: 1.15rem;
     height: 140px;
 }
+
 .weatherSummary {
   padding: 20px;
   width: 200px;
@@ -157,16 +165,20 @@ box  {
 	max-width: 760px;
 	background-color: #000;
 }
+
 .navigation {
 	list-style: none;
 	padding: 0;
 }
+
 .navigation li:first-child {
 	display: block;
 }
+
 .navigation li {
 	display: none;
 }
+
 .navigation a {
 	display: block;
 	color: #d9b38c;
@@ -174,6 +186,7 @@ box  {
 	text-align: left;
 	text-decoration: none;
 }
+
 .navigation a:hover {
 	color: #4d3319;
 	background-color: #ebebe0;
@@ -238,7 +251,14 @@ footer {
 
 /* Tablet Views */
 @media only screen and (min-width: 37.5em) {
-
+  
+p {
+  font-size: 1.1rem;
+  }
+  
+  h1 {
+  font-size: 2.5rem;
+}
   .mapbox {
   width: 300px;
   margin: 10px;
@@ -265,6 +285,7 @@ footer {
 	.navigation li:first-child {
 		display: none;
 	}
+}
 
 /* Desktop Views */
 @media only screen and (min-width: 60em) {
@@ -274,7 +295,8 @@ header {
   
   .mapbox {
   width: 400px;
-
+  }
+  
   nav {
     max-width: none;
   }
@@ -282,11 +304,13 @@ header {
   figure:hover {
     box-shadow: 0 0 50px #1139;
   }
+  
 	figcaption {
   display: grid;
   color: #bbb;
   padding: 0 0 10px 0;
 }
+  
 .grid-container { 
   display: grid;        
   justify-content: center;
@@ -295,19 +319,5 @@ header {
 	
 article:nth-child(3) {
   grid-column: span 1;
-}
-}
-	
-#color{
-	background-color:rgb(101, 111, 167);
-}
-#color2{
-	background-color: grey;
-	color: blue;
-
-}
-#color3 {
-	background-color: #bbb;
-	color: #36454f;
 }
 }
