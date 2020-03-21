@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1">
+<meta name="index.html" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="weatherapicss.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<script>
+    var date = new Date();
+    console.log(date.getDay());
+    console.log(date.getHours());
+    if(date.getDay() === 7) {
+      console.log("Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.");
+    }
+</script>
+  <div class="top">
+  <div class="box"><img src="sactoWeather.jpg" alt="logo"></div>
+    <div>
+<h1>SacTo Weather</h1>
+  <p>Sacramento Weather and Beyond</p>
+    </div>
+  </div>
+</header>
+  
+<nav>
+	<ul class="navigation">
+		<li><a class="ham" href="#">&#9776; Menu</a></li>
+		<li><a href="http://plewekat.github.io/9index.html" onclick="myFunction(this, 'white')">Home</a></li>
+		<li><a href="http://plewekat.github.io/preston-6a.html" onclick="myFunction(this, 'white')">Preston</a></li>
+		<li><a href="http://plewekat.github.io/FishHaven.html" onclick="myFunction(this, 'white')">Fish Haven</a></li>
+		<li><a href="http://plewekat.github.io/SodaSprings.html" onclick="myFunction(this, 'white')">Soda Springs</a></li>
+		<li><a href="http://plewekat.github.io/stormcenter.html" onclick="myFunction(this, 'white')">Storm Center</a></li>
+		<li><a href="http://plewekat.github.io/gallery-7.html" onclick="myFunction(this, 'white')">Gallery</a></li>
+	</ul>
+</nav>
+  
+<main> 
+<br>
+  <div class="weatherContainer">
+  <div class="currentWeather">Sacramento Weather and Beyond!<br> We travel where you do, bringing you the weather from around the globe.<br> <br> <h2>Welcome to Idaho!</h2></div>
+  </div><br>
+  
+  <div class="weatherContainer">
+<h1>OpenWeatherMap.org API Test</h1>
+<p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+<hr>
+<p>Image Icon Path Test: <span id="imagesrc"></span> &nbsp; <img src="" alt="" id="icon"></p>
+
+<script src="js/weatherapi.js"></script>
+
+</div><br>
+    <div class="cards">
+  
+  </div>
+  <script src="weatherapijs.js"></script>
+ <div class="contact">
+   <div class="mapbox"><img class="forecast" src="https://plewekat.github.io/prestonMap.JPG" alt="logo"></div>   
+   <br>
+  
+<h3>Preston, Idaho</h3>
+<div class="smaller">
+<img src="sactoLocation.jpg" alt="logo">Preston, Idaho<br>
+<img src="sactoemail.jpg" alt="email"> sactoweather@gmail.com<br>
+<img src="sactoPhone.jpg" alt="phone">  (818)181-1818<br><br>
+<img src="sactoInsta.jpg" alt="insta">   <img src="sactoFB.jpg" alt="facebook">   <img src="sactoTwitter.jpg" alt="twitter">
+</div>
+  </div>
+  <br>
+</main>
+  
+<footer>
+© 2020 | Katharine Weber | California |
+<a id="style.link" href="https://www.byui.edu/online">https://www.byui.edu/online</a>
+<span id="getdate2"></span><br>
+<script> document.write("Page was last modified on: " + document.lastModified);</script>
+</footer>
+</body>
+
+
+
+
